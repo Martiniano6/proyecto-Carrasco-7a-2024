@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Elemento</title>
+</head>
+<body>
+    <h1>Editar Elemento</h1>
+    <form action="submit_edit.html" method="POST">
+        <input type="hidden" id="id" name="id" value="1">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" value="Elemento 1" required>
+        <br>
+        <label for="description">Descripción:</label>
+        <input type="text" id="description" name="description" value="Descripción 1" required>
+        <br>
+        <button type="submit">Actualizar</button>
+    </form>
+    <a href="list.html">Volver a Listar</a>
+</body>
+</html>
